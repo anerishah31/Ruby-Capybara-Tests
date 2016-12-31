@@ -1,10 +1,13 @@
-
-source "https://www.rubygems.org"
+source 'https://rubygems.org'
 
 gem 'rspec'
-gem 'sauce_whisk'
-gem 'capybara'
-gem 'parallel_tests'
+gem 'cucumber', '>=2.0.0'
 gem 'require_all'
-gem 'selenium-webdriver'
+gem 'parallel_split_test'
+gem 'sauce_whisk'
 gem 'rake'
+gem 'json', '~> 1.0'
+gem 'eyes_selenium'
+gem 'parallel_cucumber'
+gem 'capybara'
+gem 'site_prism'
